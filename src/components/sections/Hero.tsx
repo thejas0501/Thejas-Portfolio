@@ -53,7 +53,7 @@ export default function Hero() {
             </Button>
           </MagneticButton>
           <MagneticButton>
-            <Button size="lg" variant="outline" className="font-mono bg-black/50 backdrop-blur-sm border-white/20 text-white hover:bg-white/10 rounded-none" onClick={() => window.open('/resume.pdf', '_blank')}>
+            <Button size="lg" variant="outline" className="font-mono bg-black/50 backdrop-blur-sm border-white/20 text-white hover:bg-white/10 rounded-none" onClick={() => window.open('/Thejas_Cv.docx', '_blank')}>
               <Download className="mr-2 h-4 w-4" /> Download Resume
             </Button>
           </MagneticButton>

@@ -78,9 +78,9 @@ export default function Contact() {
             transition={{ delay: 0.4 }}
             className="mt-20 text-center"
         >
-          <a href="/resume.pdf" className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-black font-bold font-mono rounded hover:bg-white transition-colors hover:shadow-[0_0_20px_rgba(0,243,255,0.5)] active:scale-95 duration-200">
+          <a href="/Thejas_Cv.docx" className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-black font-bold font-mono rounded hover:bg-white transition-colors hover:shadow-[0_0_20px_rgba(0,243,255,0.5)] active:scale-95 duration-200">
             <MessageSquareCode className="w-5 h-5" />
-            Download Resume_v2.0.pdf
+            Download Thejas_CV.docx
           </a>
         </motion.div>
       </motion.div>
