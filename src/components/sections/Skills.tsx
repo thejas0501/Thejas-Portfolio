@@ -6,49 +6,41 @@ import { Cloud, Server, Box, Activity, Lock, Database } from "lucide-react";
 export default function Skills() {
   const skillCategories = [
     {
-      title: "Cloud Platforms",
+      title: "Cloud Infrastructure",
       icon: <Cloud className="w-8 h-8 text-primary group-hover:text-white transition-colors duration-500" />,
-      skills: ["AWS (EC2, VPC, ALB, IAM, RDS, S3)", "Azure (VMs, Storage, VNet)", "IBM Cloud"],
+      skills: ["AWS (EC2, RDS, ECS, S3)", "VPC & IAM", "ALB / CloudFront", "Azure VMs"],
       color: "from-primary/20",
       glowColor: "hover:shadow-[0_0_30px_rgba(0,243,255,0.2)]",
       borderColor: "border-primary/30 group-hover:border-primary"
     },
     {
-      title: "DevOps & Infrastructure",
+      title: "DevOps & Automation",
       icon: <Server className="w-8 h-8 text-[#b026ff] group-hover:text-white transition-colors duration-500" />,
-      skills: ["Docker", "Terraform (IaC)", "Nginx", "GitLab CI/CD", "Linux", "PM2"],
+      skills: ["Docker", "Terraform (IaC)", "GitLab CI", "GitHub Actions", "Git"],
       color: "from-[#b026ff]/20",
       glowColor: "hover:shadow-[0_0_30px_rgba(176,38,255,0.2)]",
       borderColor: "border-[#b026ff]/30 group-hover:border-[#b026ff]"
     },
     {
-      title: "Big Data Ecosystem",
-      icon: <Database className="w-8 h-8 text-[#00ff00] group-hover:text-white transition-colors duration-500" />,
-      skills: ["Apache Spark", "Hadoop (HDFS, YARN)", "Sqoop", "Hive", "Cloudera"],
+      title: "Monitoring & Observability",
+      icon: <Activity className="w-8 h-8 text-[#00ff00] group-hover:text-white transition-colors duration-500" />,
+      skills: ["AWS CloudWatch", "Custom Dashboards", "Cost Explorer API"],
       color: "from-[#00ff00]/20",
       glowColor: "hover:shadow-[0_0_30px_rgba(0,255,0,0.2)]",
       borderColor: "border-[#00ff00]/30 group-hover:border-[#00ff00]"
     },
     {
-      title: "IBM Enterprise Stack",
-      icon: <Box className="w-8 h-8 text-yellow-500 group-hover:text-white transition-colors duration-500" />,
-      skills: ["Watson Studio", "IBM Db2", "Guardium", "Cognos", "SPSS Modeler"],
+      title: "Backend",
+      icon: <Lock className="w-8 h-8 text-yellow-500 group-hover:text-white transition-colors duration-500" />,
+      skills: ["Node.js", "Python", "C++", "SQL / PostgreSQL", "Nginx"],
       color: "from-yellow-500/20",
       glowColor: "hover:shadow-[0_0_30px_rgba(234,179,8,0.2)]",
       borderColor: "border-yellow-500/30 group-hover:border-yellow-500"
     },
     {
-      title: "Programming & Git",
-      icon: <Lock className="w-8 h-8 text-red-500 group-hover:text-white transition-colors duration-500" />,
-      skills: ["Python", "C++", "SQL", "Git", "GitHub"],
-      color: "from-red-500/20",
-      glowColor: "hover:shadow-[0_0_30px_rgba(239,68,68,0.2)]",
-      borderColor: "border-red-500/30 group-hover:border-red-500"
-    },
-    {
-      title: "Data Analytics",
-      icon: <Activity className="w-8 h-8 text-blue-500 group-hover:text-white transition-colors duration-500" />,
-      skills: ["Power BI (DAX, Power Query)", "Tableau", "Cognos Analytics"],
+      title: "Data Ecosystem",
+      icon: <Database className="w-8 h-8 text-blue-500 group-hover:text-white transition-colors duration-500" />,
+      skills: ["Apache Spark", "Hadoop (HDFS/YARN)", "IBM Watson Studio", "IBM Db2", "Power BI"],
       color: "from-blue-500/20",
       glowColor: "hover:shadow-[0_0_30px_rgba(59,130,246,0.2)]",
       borderColor: "border-blue-500/30 group-hover:border-blue-500"

@@ -47,7 +47,7 @@ export default function About() {
         );
         break;
       case "about":
-        response = <div className="mt-2 text-gray-300">Cloud & DevOps Engineer with hands-on experience building and deploying cloud-native infrastructure and data platforms. Proficient in infrastructure automation, cloud monitoring, containerization, and big data ecosystems.</div>;
+        response = <div className="mt-2 text-gray-300">I am a Cloud & DevOps Engineer with hands-on experience managing real-world AWS infrastructure. I specialize in building scalable systems, automating deployments, and optimizing cloud costs. I have worked on production systems involving EC2, RDS, ALB, and monitoring tools, ensuring high availability and performance.</div>;
         break;
       case "skills":
         response = (

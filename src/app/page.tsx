@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
+import Impact from "@/components/sections/Impact";
 import Skills from "@/components/sections/Skills";
 import Experience from "@/components/sections/Experience";
 import Projects from "@/components/sections/Projects";
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="w-full max-w-7xl mx-auto px-6 flex flex-col gap-32 pt-16 pb-16">
         <Hero />
         <About />
+        <Impact />
         <Skills />
         <Experience />
         <Projects />
