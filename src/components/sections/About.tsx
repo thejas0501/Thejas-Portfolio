@@ -15,8 +15,8 @@ export default function About() {
       command: "whoami",
       response: (
         <div className="text-primary glow-text mb-2">
-          Hello! I'm K A Thejas, a Cloud & DevOps Engineer based in Tirupati, currently working at Masters' Union.
-          Type 'help' to see available commands.
+          Hello! I&apos;m K A Thejas, a Cloud &amp; DevOps Engineer based in Tirupati, currently working at Masters&apos; Union.
+          Type &apos;help&apos; to see available commands.
         </div>
       )
     }

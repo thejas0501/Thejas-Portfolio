@@ -46,7 +46,7 @@ export default function Contact() {
         </div>
 
         <p className="text-muted-foreground text-center max-w-lg mb-12 text-lg">
-          My inbox is always open. Whether you have a question about scalable architecture or just want to say hi, I'll try my best to get back to you!
+          My inbox is always open. Whether you have a question about scalable architecture or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 w-full justify-center">

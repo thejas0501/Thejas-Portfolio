@@ -80,6 +80,7 @@ export default function Hero() {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="relative">
               <div className="absolute -inset-4 bg-primary/20 rounded-full blur-xl animate-pulse" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="https://github.com/thejas0501.png" alt="Profile" className="w-24 h-24 rounded-full border-2 border-primary relative z-10 grayscale hover:grayscale-0 transition-all duration-500" />
             </div>
           </div>
