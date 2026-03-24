@@ -21,10 +21,12 @@ export default function About() {
       )
     }
   ]);
-  const bottomRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (containerRef.current) {
+      containerRef.current.scrollTop = containerRef.current.scrollHeight;
+    }
   }, [output]);
 
   const handleCommand = (e: React.FormEvent) => {
@@ -117,6 +119,7 @@ export default function About() {
 
           {/* Terminal Body */}
           <div 
+            ref={containerRef}
             className="flex-1 bg-black/60 p-6 font-mono text-sm overflow-y-auto custom-scrollbar cursor-text" 
             onClick={() => document.getElementById("terminal-input")?.focus()}
           >
@@ -132,7 +135,7 @@ export default function About() {
             ))}
             
             {/* Active Input Line */}
-            <form onSubmit={handleCommand} className="flex items-center gap-2 text-[#00ff00]">
+            <form onSubmit={handleCommand} className="flex items-center gap-2 text-[#00ff00] pb-4">
               <span>root@portfolio:~$</span>
               <input
                 id="terminal-input"
@@ -145,7 +148,6 @@ export default function About() {
                 spellCheck="false"
               />
             </form>
-            <div ref={bottomRef} className="h-4" />
           </div>
         </div>
       </motion.div>

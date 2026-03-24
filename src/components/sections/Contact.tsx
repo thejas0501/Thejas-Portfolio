@@ -14,9 +14,9 @@ export default function Contact() {
     },
     {
       name: "LinkedIn",
-      value: "linkedin.com/in/k-a-thejas-06698252",
+      value: "linkedin.com/in/ka-thejas",
       icon: <Linkedin className="w-6 h-6 shrink-0" />,
-      href: "https://linkedin.com/in/k-a-thejas-06698252/",
+      href: "https://www.linkedin.com/in/ka-thejas/",
       color: "hover:text-[#0a66c2]"
     },
     {
