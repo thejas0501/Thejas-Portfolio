@@ -81,7 +81,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute -inset-4 bg-primary/20 rounded-full blur-xl animate-pulse" />
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="https://github.com/thejas0501.png" alt="Profile" className="w-24 h-24 rounded-full border-2 border-primary relative z-10 grayscale hover:grayscale-0 transition-all duration-500" />
+              <img src="https://github.com/thejas0501.png" alt="Profile" className="w-64 h-64 object-cover rounded-full border-4 border-primary/50 shadow-[0_0_30px_rgba(0,243,255,0.3)] relative z-10 transition-all duration-500" />
             </div>
           </div>
 
