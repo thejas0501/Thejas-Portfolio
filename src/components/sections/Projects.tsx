@@ -14,8 +14,8 @@ export default function Projects() {
         "Improved incident response times by 30% through unified observability."
       ],
       tags: ["Next.js", "AWS SDK v3", "CloudWatch", "Cost Explorer", "EC2", "RDS"],
-      github: "https://github.com/thejas0501/",
-      demo: "#"
+      github: "https://github.com/thejas0501/OpsConsole-AWS",
+      demo: "https://github.com/thejas0501/OpsConsole-AWS"
     },
     {
       title: "Terraform AWS Infrastructure",
@@ -25,8 +25,8 @@ export default function Projects() {
         "Enforced zero-trust backend isolation using strict IAM and Security Groups."
       ],
       tags: ["Terraform", "AWS", "GitLab CI/CD", "VPC", "ALB"],
-      github: "https://github.com/thejas0501/",
-      demo: "#"
+      github: "https://github.com/thejas0501/terraform-aws-production-infra",
+      demo: "https://github.com/thejas0501/terraform-aws-production-infra"
     }
   ];
 
