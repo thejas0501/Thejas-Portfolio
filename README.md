@@ -50,6 +50,20 @@
 
 ---
 
+### 🚀 Featured Production Projects:
+
+#### 🟢 [OpsConsole-AWS](https://github.com/thejas0501/OpsConsole-AWS)
+- **Production Deployment**: Architected and fully deployed a production-level centralized dashboard tracking AWS health, usage, and cost analytics.
+- **Cost Reduction**: Built a waste detection engine targeting idle EC2 instances and unattached EBS volumes, identifying 15% in resource waste.
+- **Tech Stack**: Next.js, AWS SDK v3, CloudWatch, Cost Explorer, EC2.
+
+#### 🟢 [Terraform AWS Production Infra](https://github.com/thejas0501/terraform-aws-production-infra)
+- **High Availability**: Designed a multi-AZ scalable AWS architecture using pure Infrastructure as Code.
+- **Zero-Trust Setup**: Deployed EC2 instances in private subnets with ALB and Auto Scaling Groups managed entirely via Terraform.
+- **Tech Stack**: Terraform, AWS (VPC, EC2, ALB, ASG), HCL.
+
+---
+
 ### 📊 GitHub Stats:
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=thejas0501&show_icons=true&theme=dracula&hide_title=true&count_private=true" alt="thejas0501's GitHub stats" height="150" />

@@ -7,8 +7,8 @@ import { Badge } from "@/components/ui/badge";
 export default function Projects() {
   const projects = [
     {
-      title: "Cloud SRE Command Center",
-      description: "Architected a centralized dashboard tracking AWS health, usage, and cost analytics. Built a waste detection engine targeting idle EC2 instances and unattached EBS volumes.",
+      title: "OpsConsole-AWS",
+      description: "Architected and fully deployed a production-level centralized dashboard tracking AWS health, usage, and cost analytics. Built a waste detection engine targeting idle EC2 instances and unattached EBS volumes.",
       metrics: [
         "Reduced monthly AWS costs by identifying and cleaning 15% idle resource waste.",
         "Improved incident response times by 30% through unified observability."
