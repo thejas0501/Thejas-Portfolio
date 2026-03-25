@@ -8,6 +8,7 @@ export default function Projects() {
   const projects = [
     {
       title: "OpsConsole-AWS",
+      status: "production",
       description: "Architected and fully deployed a production-level centralized dashboard tracking AWS health, usage, and cost analytics. Built a waste detection engine targeting idle EC2 instances and unattached EBS volumes.",
       metrics: [
         "Reduced monthly AWS costs by identifying and cleaning 15% idle resource waste.",
@@ -19,6 +20,7 @@ export default function Projects() {
     },
     {
       title: "Terraform AWS Infrastructure",
+      status: "production",
       description: "Architected a highly available, secure VPC with public/private subnets and ALB routing for backend services. Implemented Infrastructure as Code (IaC) principles.",
       metrics: [
         "Achieved 100% reproducible deployments across staging and production.",
@@ -62,11 +64,19 @@ export default function Projects() {
               </div>
 
               <div className="flex-1 z-10">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-3xl font-bold text-foreground group-hover:text-primary transition-colors">
-                    {project.title}
-                  </h3>
-                  <div className="flex gap-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4">
+                  <div className="flex items-center gap-4 flex-wrap">
+                    <h3 className="text-3xl font-bold text-foreground group-hover:text-primary transition-colors">
+                      {project.title}
+                    </h3>
+                    {project.status === "production" && (
+                      <span className="px-3 py-1 rounded-full bg-[#00ff00]/10 border border-[#00ff00]/30 text-[#00ff00] text-xs font-mono font-bold flex items-center gap-2 shadow-[0_0_15px_rgba(0,255,0,0.15)] group-hover:shadow-[0_0_20px_rgba(0,255,0,0.3)] transition-all">
+                        <span className="w-2 h-2 rounded-full bg-[#00ff00] animate-pulse shadow-[0_0_10px_rgba(0,255,0,0.8)]" />
+                        LIVE IN PRODUCTION
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex gap-4 self-start sm:self-center">
                     <a href={project.github} target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-white transition-colors">
                       <Github className="w-6 h-6" />
                     </a>
