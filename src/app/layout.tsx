@@ -18,8 +18,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "K A Thejas | Cloud & DevOps Engineer",
-  description: "Portfolio of K A Thejas, Cloud & DevOps Engineer specializing in AWS, infrastructure automation, and data platforms.",
+  title: "K A Thejas | Cloud & DevOps Engineer — SRE, AWS, Kubernetes, Terraform",
+  description:
+    "Portfolio of K A Thejas — Cloud & DevOps Engineer specializing in SRE, AWS infrastructure, Kubernetes, Terraform, Observability, CI/CD, and AI-powered automation. Building scalable production systems.",
+  keywords: [
+    "Cloud Engineer",
+    "DevOps Engineer", 
+    "SRE",
+    "Site Reliability Engineer",
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "Observability",
+    "Prometheus",
+    "Grafana",
+    "Infrastructure as Code",
+    "CI/CD",
+    "Platform Engineer",
+    "K A Thejas",
+  ],
+  authors: [{ name: "K A Thejas" }],
+  openGraph: {
+    title: "K A Thejas | Cloud & DevOps Engineer",
+    description: "SRE-focused engineer building scalable production infrastructure with AWS, Kubernetes, Terraform, and Observability.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

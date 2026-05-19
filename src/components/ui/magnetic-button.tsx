@@ -1,35 +1,37 @@
 "use client";
 
-import { useRef, useState } from "react";
-import { motion } from "framer-motion";
+import { useRef, ReactNode } from "react";
 
-export default function MagneticButton({ children, className }: { children: React.ReactNode; className?: string }) {
+interface MagneticButtonProps {
+  children: ReactNode;
+  className?: string;
+}
+
+export default function MagneticButton({ children, className }: MagneticButtonProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
 
-  const handleMouse = (e: React.MouseEvent<HTMLDivElement>) => {
-    const { clientX, clientY } = e;
+  const handleMouse = (e: React.MouseEvent) => {
     if (!ref.current) return;
     const { height, width, left, top } = ref.current.getBoundingClientRect();
-    const middleX = clientX - (left + width / 2);
-    const middleY = clientY - (top + height / 2);
-    setPosition({ x: middleX * 0.2, y: middleY * 0.2 });
+    const middleX = e.clientX - (left + width / 2);
+    const middleY = e.clientY - (top + height / 2);
+    ref.current.style.transform = `translate(${middleX * 0.15}px, ${middleY * 0.15}px)`;
   };
 
   const reset = () => {
-    setPosition({ x: 0, y: 0 });
+    if (!ref.current) return;
+    ref.current.style.transform = "translate(0px, 0px)";
   };
 
   return (
-    <motion.div
+    <div
       ref={ref}
       onMouseMove={handleMouse}
       onMouseLeave={reset}
-      animate={{ x: position.x, y: position.y }}
-      transition={{ type: "spring", stiffness: 150, damping: 15, mass: 0.1 }}
+      style={{ transition: "transform 0.2s ease-out" }}
       className={className}
     >
       {children}
-    </motion.div>
+    </div>
   );
 }

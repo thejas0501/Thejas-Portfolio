@@ -10,7 +10,7 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
-import { Terminal, Lightbulb, Box, Code, Award, Mail } from "lucide-react";
+import { Terminal, Lightbulb, Box, Code, Award, Mail, Github, Activity } from "lucide-react";
 
 export default function CommandMenu() {
   const [open, setOpen] = useState(false);
@@ -63,7 +63,11 @@ export default function CommandMenu() {
             </CommandItem>
             <CommandItem onSelect={() => navigateTo("projects")} className="cursor-pointer">
               <Terminal className="mr-2 h-4 w-4 text-yellow-500" />
-              <span>DeployedAssets.list()</span>
+              <span>DeployedSystems.list()</span>
+            </CommandItem>
+            <CommandItem onSelect={() => navigateTo("github")} className="cursor-pointer">
+              <Github className="mr-2 h-4 w-4 text-white" />
+              <span>GitHubActivity.stream()</span>
             </CommandItem>
             <CommandItem onSelect={() => navigateTo("certifications")} className="cursor-pointer">
               <Award className="mr-2 h-4 w-4 text-primary" />
@@ -75,6 +79,16 @@ export default function CommandMenu() {
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />
+          <CommandGroup heading="Actions">
+            <CommandItem onSelect={() => { setOpen(false); window.open("/thejas_devops.docx", "_blank"); }} className="cursor-pointer">
+              <Activity className="mr-2 h-4 w-4 text-[#00ff00]" />
+              <span>Resume.download()</span>
+            </CommandItem>
+            <CommandItem onSelect={() => { setOpen(false); window.open("https://github.com/thejas0501/", "_blank"); }} className="cursor-pointer">
+              <Github className="mr-2 h-4 w-4 text-white" />
+              <span>GitHub.open()</span>
+            </CommandItem>
+          </CommandGroup>
         </CommandList>
       </CommandDialog>
     </>
