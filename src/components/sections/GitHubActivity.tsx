@@ -23,7 +23,7 @@ const repos = [
     stars: 8,
     forks: 2,
     category: "SRE",
-    url: "https://github.com/thejas0501/Intelligent-Observability-SRE-Platform",
+    url: "https://github.com/thejas0501/Intelligent-Observability-and-SRE-Platform",
   },
   {
     name: "terraform-aws-production-infra",
@@ -77,7 +77,7 @@ function generateContributions() {
       const isWeekend = d >= 5;
       const recentBoost = w > 40 ? 0.2 : 0;
       const chance = baseChance + recentBoost - (isWeekend ? 0.3 : 0);
-      
+
       if (random() < chance) {
         const level = random();
         if (level < 0.3) week.push(1);
