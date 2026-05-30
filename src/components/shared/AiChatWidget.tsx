@@ -36,7 +36,7 @@ export default function AiChatWidget() {
         } else if (lowercaseMsg.includes("education") || lowercaseMsg.includes("college") || lowercaseMsg.includes("degree")) {
             aiResponse = "He is pursuing a B.Tech in CSE from Lovely Professional University (2022-2026), focusing on cloud computing and big data.";
         } else if (lowercaseMsg.includes("hire") || lowercaseMsg.includes("contact")) {
-            aiResponse = "You can reach out directly via the Contact section below, or email him at kethinithejas22112004@gmail.com. He is currently open to new opportunities!";
+            aiResponse = "You can reach out directly via the Contact section below, or email him at thejaskethini.tech@gmail.com. He is currently open to new opportunities!";
         } else if (lowercaseMsg.includes("hello") || lowercaseMsg.includes("hi") || lowercaseMsg.includes("who")) {
             aiResponse = "Hello there! I'm the automated assistant for K A Thejas. How can I assist you with questions about his infrastructure expertise today?";
         }

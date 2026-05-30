@@ -13,7 +13,7 @@ const repos = [
     stars: 12,
     forks: 3,
     category: "Observability",
-    url: "https://github.com/thejas0501/OpsConsole-AWS",
+    url: "https://github.com/thejaskethini/OpsConsole-AWS",
   },
   {
     name: "Intelligent-Observability-SRE-Platform",
@@ -23,7 +23,7 @@ const repos = [
     stars: 8,
     forks: 2,
     category: "SRE",
-    url: "https://github.com/thejas0501/Intelligent-Observability-and-SRE-Platform",
+    url: "https://github.com/thejaskethini/Intelligent-Observability-and-SRE-Platform",
   },
   {
     name: "terraform-aws-production-infra",
@@ -33,7 +33,7 @@ const repos = [
     stars: 6,
     forks: 1,
     category: "IaC",
-    url: "https://github.com/thejas0501/terraform-aws-production-infra",
+    url: "https://github.com/thejaskethini/terraform-aws-production-infra",
   },
   {
     name: "Zero-To-SRE",
@@ -43,7 +43,7 @@ const repos = [
     stars: 15,
     forks: 5,
     category: "Documentation",
-    url: "https://github.com/thejas0501/Zero-To-SRE",
+    url: "https://github.com/thejaskethini/Zero-To-SRE",
   },
 ];
 
@@ -152,8 +152,8 @@ export default function GitHubActivity() {
           <div className="flex items-center gap-3 mb-4">
             <Github className="w-5 h-5 text-primary" />
             <span className="font-mono text-sm text-muted-foreground">
-              <a href="https://github.com/thejas0501" target="_blank" rel="noreferrer" className="text-white hover:text-primary transition-colors">
-                @thejas0501
+              <a href="https://github.com/thejaskethini" target="_blank" rel="noreferrer" className="text-white hover:text-primary transition-colors">
+                @thejaskethini
               </a>
               {" "} — contribution activity
             </span>

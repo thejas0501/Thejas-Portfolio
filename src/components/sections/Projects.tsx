@@ -60,7 +60,7 @@ const projects: Project[] = [
       { label: "Cost Explorer", icon: Database },
       { label: "EC2/RDS/S3", icon: Server },
     ],
-    github: "https://github.com/thejas0501/OpsConsole-AWS",
+    github: "https://github.com/thejaskethini/OpsConsole-AWS",
   },
   {
     id: "sre-platform",
@@ -91,7 +91,7 @@ const projects: Project[] = [
       { label: "Grafana", icon: Database },
       { label: "Auto-Remediate", icon: Zap },
     ],
-    github: "https://github.com/thejas0501/Intelligent-Observability-SRE-Platform",
+    github: "https://github.com/thejaskethini/Intelligent-Observability-SRE-Platform",
   },
   {
     id: "terraform-infra",
@@ -122,7 +122,7 @@ const projects: Project[] = [
       { label: "TF Apply", icon: Zap },
       { label: "AWS Infra", icon: Cloud },
     ],
-    github: "https://github.com/thejas0501/terraform-aws-production-infra",
+    github: "https://github.com/thejaskethini/terraform-aws-production-infra",
   },
   {
     id: "progressive-delivery",
@@ -153,7 +153,7 @@ const projects: Project[] = [
       { label: "K8s Cluster", icon: Server },
       { label: "Canary/Promote", icon: Shield },
     ],
-    github: "https://github.com/thejas0501/",
+    github: "https://github.com/thejaskethini/",
   },
 ];
 

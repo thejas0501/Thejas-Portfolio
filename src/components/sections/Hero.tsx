@@ -225,7 +225,7 @@ export default function Hero() {
               size="icon"
               variant="outline"
               className="h-11 w-11 bg-white/5 border-white/15 hover:bg-white/10 rounded-md"
-              onClick={() => window.open("https://github.com/thejas0501/", "_blank")}
+              onClick={() => window.open("https://github.com/thejaskethini/", "_blank")}
             >
               <Github className="h-5 w-5 text-white" />
             </Button>
@@ -267,7 +267,7 @@ export default function Hero() {
               <div className="absolute -inset-3 bg-gradient-to-r from-primary/20 via-[#b026ff]/20 to-primary/20 rounded-full blur-2xl animate-pulse" />
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://github.com/thejas0501.png"
+                src="https://github.com/thejaskethini.png"
                 alt="K A Thejas"
                 className="w-48 h-48 xl:w-56 xl:h-56 object-cover rounded-full border-2 border-primary/30 shadow-[0_0_40px_rgba(0,243,255,0.15)] relative z-10"
               />

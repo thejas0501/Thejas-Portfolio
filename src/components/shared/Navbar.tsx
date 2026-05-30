@@ -52,9 +52,8 @@ export default function Navbar() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
-        className={`fixed top-0 w-full z-40 transition-all duration-300 ${
-          scrolled ? "bg-[#030014]/80 backdrop-blur-xl border-b border-white/5 py-2" : "bg-transparent py-4"
-        }`}
+        className={`fixed top-0 w-full z-40 transition-all duration-300 ${scrolled ? "bg-[#030014]/80 backdrop-blur-xl border-b border-white/5 py-2" : "bg-transparent py-4"
+          }`}
       >
         {/* Scroll Progress Bar */}
         <div
@@ -77,18 +76,17 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`text-xs font-mono font-medium transition-all duration-300 cursor-pointer ${
-                  activeSection === link.href.replace("#", "")
-                    ? "text-primary glow-text"
-                    : "text-muted-foreground hover:text-primary"
-                }`}
+                className={`text-xs font-mono font-medium transition-all duration-300 cursor-pointer ${activeSection === link.href.replace("#", "")
+                  ? "text-primary glow-text"
+                  : "text-muted-foreground hover:text-primary"
+                  }`}
               >
                 <span className="text-primary/40 mr-1">/</span>
                 {link.name.toLowerCase()}
               </Link>
             ))}
             <a
-              href="https://github.com/thejas0501/"
+              href="https://github.com/thejaskethini/"
               target="_blank"
               rel="noreferrer"
               className="text-muted-foreground hover:text-white transition-colors ml-2"
@@ -137,7 +135,7 @@ export default function Navbar() {
                 </motion.div>
               ))}
               <div className="border-t border-white/10 pt-6 mt-4 flex gap-4">
-                <a href="https://github.com/thejas0501/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-white">
+                <a href="https://github.com/thejaskethini/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-white">
                   <Github className="w-5 h-5" />
                 </a>
               </div>

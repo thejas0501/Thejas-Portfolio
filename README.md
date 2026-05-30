@@ -5,14 +5,14 @@
 - 🌱 I'm constantly learning about **Advanced System Design, Serverless Computing, and multi-cloud environments**.
 - 👯 I'm looking to collaborate on **Cloud Architecture, DevOps automations, and CI/CD enhancements**.
 - 💬 Ask me about **AWS, Azure, Terraform, CI/CD, and highly available architectures**.
-- 📫 How to reach me: [kethinithejas22112004@gmail.com](mailto:kethinithejas22112004@gmail.com)
+- 📫 How to reach me: [thejaskethini.tech@gmail.com](mailto:thejaskethini.tech@gmail.com)
 - ⚡ Fun fact: I can juggle between coding, automating cloud infra, and monitoring systems while still finding time to binge-watch series! 🎬
 
 ---
 
 ### 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ka-thejas/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kethinithejas22112004@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thejaskethini.tech@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%2300f3ff.svg?style=for-the-badge&logo=vercel&logoColor=black)](https://thejas-portfolio-pi.vercel.app/)
 
 ---
@@ -52,12 +52,12 @@
 
 ### 🚀 Featured Production Projects:
 
-#### 🟢 [OpsConsole-AWS](https://github.com/thejas0501/OpsConsole-AWS)
+#### 🟢 [OpsConsole-AWS](https://github.com/thejaskethini/OpsConsole-AWS)
 - **Production Deployment**: Architected and fully deployed a production-level centralized dashboard tracking AWS health, usage, and cost analytics.
 - **Cost Reduction**: Built a waste detection engine targeting idle EC2 instances and unattached EBS volumes, identifying 15% in resource waste.
 - **Tech Stack**: Next.js, AWS SDK v3, CloudWatch, Cost Explorer, EC2.
 
-#### 🟢 [Terraform AWS Production Infra](https://github.com/thejas0501/terraform-aws-production-infra)
+#### 🟢 [Terraform AWS Production Infra](https://github.com/thejaskethini/terraform-aws-production-infra)
 - **High Availability**: Designed a multi-AZ scalable AWS architecture using pure Infrastructure as Code.
 - **Zero-Trust Setup**: Deployed EC2 instances in private subnets with ALB and Auto Scaling Groups managed entirely via Terraform.
 - **Tech Stack**: Terraform, AWS (VPC, EC2, ALB, ASG), HCL.
@@ -66,14 +66,14 @@
 
 ### 📊 GitHub Stats:
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=thejas0501&show_icons=true&theme=dracula&hide_title=true&count_private=true" alt="thejas0501's GitHub stats" height="150" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=thejas0501&theme=dracula" alt="thejas0501's GitHub streak" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=thejaskethini&show_icons=true&theme=dracula&hide_title=true&count_private=true" alt="thejaskethini's GitHub stats" height="150" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=thejaskethini&theme=dracula" alt="thejaskethini's GitHub streak" height="150" />
 </p>
 
 ### 🏆 GitHub Trophies
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=thejas0501&theme=dracula&margin-w=15&margin-h=15" alt="thejas0501 trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=thejaskethini&theme=dracula&margin-w=15&margin-h=15" alt="thejaskethini trophies" />
   </a>
 </p>
 

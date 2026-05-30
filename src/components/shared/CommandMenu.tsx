@@ -84,7 +84,7 @@ export default function CommandMenu() {
               <Activity className="mr-2 h-4 w-4 text-[#00ff00]" />
               <span>Resume.download()</span>
             </CommandItem>
-            <CommandItem onSelect={() => { setOpen(false); window.open("https://github.com/thejas0501/", "_blank"); }} className="cursor-pointer">
+            <CommandItem onSelect={() => { setOpen(false); window.open("https://github.com/thejaskethini/", "_blank"); }} className="cursor-pointer">
               <Github className="mr-2 h-4 w-4 text-white" />
               <span>GitHub.open()</span>
             </CommandItem>

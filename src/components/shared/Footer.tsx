@@ -34,13 +34,13 @@ export default function Footer() {
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
-            <a href="https://github.com/thejas0501/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-white transition-colors p-2 rounded-lg hover:bg-white/5">
+            <a href="https://github.com/thejaskethini/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-white transition-colors p-2 rounded-lg hover:bg-white/5">
               <Github className="w-4 h-4" />
             </a>
             <a href="https://www.linkedin.com/in/ka-thejas/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-[#0a66c2] transition-colors p-2 rounded-lg hover:bg-white/5">
               <Linkedin className="w-4 h-4" />
             </a>
-            <a href="mailto:kethinithejas22112004@gmail.com" className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-lg hover:bg-white/5">
+            <a href="mailto:thejaskethini.tech@gmail.com" className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-lg hover:bg-white/5">
               <Mail className="w-4 h-4" />
             </a>
           </div>

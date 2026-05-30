@@ -26,9 +26,9 @@ export default function Contact() {
   const contacts = [
     {
       name: "GitHub",
-      value: "github.com/thejas0501",
+      value: "github.com/thejaskethini",
       icon: Github,
-      href: "https://github.com/thejas0501/",
+      href: "https://github.com/thejaskethini/",
       hoverColor: "hover:border-white/30 hover:text-white",
     },
     {
@@ -40,9 +40,9 @@ export default function Contact() {
     },
     {
       name: "Email",
-      value: "kethinithejas22112004@gmail.com",
+      value: "thejaskethini.tech@gmail.com",
       icon: Mail,
-      href: "mailto:kethinithejas22112004@gmail.com",
+      href: "mailto:thejaskethini.tech@gmail.com",
       hoverColor: "hover:border-primary/30 hover:text-primary",
     },
   ];
